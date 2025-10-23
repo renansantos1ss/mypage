@@ -82,7 +82,9 @@ section {
     margin: 20px auto;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease;
 }
+
 
 h2 {
     color: #0945a6;
@@ -149,3 +151,8 @@ p {
        border-radius: 12px;
 
 }
+
+  section:hover{
+      transform: translateY(-10px);
+    
+  }
